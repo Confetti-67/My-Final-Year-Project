@@ -1,0 +1,18 @@
+forex_regime_detection/ # type: ignore
+├── data/
+│   ├── raw/                  # Raw data from MetaTrader 5
+│   ├── processed/            # Processed and cleaned data
+│   └── visualizations/       # Data quality visualizations
+├── src/
+│   ├── data/                 # Data acquisition and processing modules
+│   │   ├── data_acquisition.py  # MetaTrader 5 data fetching
+│   │   ├── data_validation.py   # Data quality checks and visualization
+│   │   └── data_storage.py      # Data storage and management
+│   ├── features/             # Feature engineering modules (to be implemented)
+│   ├── models/               # Clustering algorithms (to be implemented)
+│   ├── validation/           # Validation frameworks (to be implemented)
+│   └── visualization/        # Visualization tools (to be implemented)
+├── tests/                    # Unit tests
+├── config.py                 # Configuration parameters
+├── setup.py                  # Package setup script
+└── README.md                 # Project documentation

@@ -1,0 +1,253 @@
+{
+  "last_update": "2025-03-03T19:01:00.301454",
+  "symbols": {
+    "EURUSD": {
+      "timeframes": [
+        "D1",
+        "H1",
+        "H4"
+      ],
+      "files": [
+        "EURUSD_D1_20200304_20250303.csv",
+        "EURUSD_H1_20200304_20250303.csv",
+        "EURUSD_H4_20200304_20250303.csv"
+      ]
+    },
+    "GBPUSD": {
+      "timeframes": [
+        "D1",
+        "H1",
+        "H4"
+      ],
+      "files": [
+        "GBPUSD_D1_20200304_20250303.csv",
+        "GBPUSD_H1_20200304_20250303.csv",
+        "GBPUSD_H4_20200304_20250303.csv"
+      ]
+    },
+    "USDJPY": {
+      "timeframes": [
+        "D1",
+        "H1",
+        "H4"
+      ],
+      "files": [
+        "USDJPY_D1_20200304_20250303.csv",
+        "USDJPY_H1_20200304_20250303.csv",
+        "USDJPY_H4_20200304_20250303.csv"
+      ]
+    }
+  },
+  "timeframes": {
+    "D1": {
+      "symbols": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY"
+      ],
+      "files": [
+        "EURUSD_D1_20200304_20250303.csv",
+        "GBPUSD_D1_20200304_20250303.csv",
+        "USDJPY_D1_20200304_20250303.csv"
+      ]
+    },
+    "H1": {
+      "symbols": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY"
+      ],
+      "files": [
+        "EURUSD_H1_20200304_20250303.csv",
+        "GBPUSD_H1_20200304_20250303.csv",
+        "USDJPY_H1_20200304_20250303.csv"
+      ]
+    },
+    "H4": {
+      "symbols": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY"
+      ],
+      "files": [
+        "EURUSD_H4_20200304_20250303.csv",
+        "GBPUSD_H4_20200304_20250303.csv",
+        "USDJPY_H4_20200304_20250303.csv"
+      ]
+    }
+  },
+  "datasets": {
+    "EURUSD_D1_20200304_20250303.csv": {
+      "symbol": "EURUSD",
+      "timeframe": "D1",
+      "type": "raw",
+      "path": "C:\\Users\\peter\\Documents\\RegimeDetection\\backend\\forex_regime_detection\\data\\raw\\EURUSD_D1_20200304_20250303.csv",
+      "records": 1299,
+      "start_date": "2020-03-05T00:00:00",
+      "end_date": "2025-03-03T00:00:00",
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "tick_volume",
+        "spread",
+        "real_volume"
+      ],
+      "last_modified": "2025-03-03T19:01:00.039362"
+    },
+    "EURUSD_H1_20200304_20250303.csv": {
+      "symbol": "EURUSD",
+      "timeframe": "H1",
+      "type": "raw",
+      "path": "C:\\Users\\peter\\Documents\\RegimeDetection\\backend\\forex_regime_detection\\data\\raw\\EURUSD_H1_20200304_20250303.csv",
+      "records": 31075,
+      "start_date": "2020-03-04T16:00:00",
+      "end_date": "2025-03-03T15:00:00",
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "tick_volume",
+        "spread",
+        "real_volume"
+      ],
+      "last_modified": "2025-03-03T19:01:00.097483"
+    },
+    "EURUSD_H4_20200304_20250303.csv": {
+      "symbol": "EURUSD",
+      "timeframe": "H4",
+      "type": "raw",
+      "path": "C:\\Users\\peter\\Documents\\RegimeDetection\\backend\\forex_regime_detection\\data\\raw\\EURUSD_H4_20200304_20250303.csv",
+      "records": 7779,
+      "start_date": "2020-03-04T16:00:00",
+      "end_date": "2025-03-03T12:00:00",
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "tick_volume",
+        "spread",
+        "real_volume"
+      ],
+      "last_modified": "2025-03-03T19:01:00.117550"
+    },
+    "GBPUSD_D1_20200304_20250303.csv": {
+      "symbol": "GBPUSD",
+      "timeframe": "D1",
+      "type": "raw",
+      "path": "C:\\Users\\peter\\Documents\\RegimeDetection\\backend\\forex_regime_detection\\data\\raw\\GBPUSD_D1_20200304_20250303.csv",
+      "records": 1299,
+      "start_date": "2020-03-05T00:00:00",
+      "end_date": "2025-03-03T00:00:00",
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "tick_volume",
+        "spread",
+        "real_volume"
+      ],
+      "last_modified": "2025-03-03T19:01:00.124073"
+    },
+    "GBPUSD_H1_20200304_20250303.csv": {
+      "symbol": "GBPUSD",
+      "timeframe": "H1",
+      "type": "raw",
+      "path": "C:\\Users\\peter\\Documents\\RegimeDetection\\backend\\forex_regime_detection\\data\\raw\\GBPUSD_H1_20200304_20250303.csv",
+      "records": 31076,
+      "start_date": "2020-03-04T16:00:00",
+      "end_date": "2025-03-03T15:00:00",
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "tick_volume",
+        "spread",
+        "real_volume"
+      ],
+      "last_modified": "2025-03-03T19:01:00.188195"
+    },
+    "GBPUSD_H4_20200304_20250303.csv": {
+      "symbol": "GBPUSD",
+      "timeframe": "H4",
+      "type": "raw",
+      "path": "C:\\Users\\peter\\Documents\\RegimeDetection\\backend\\forex_regime_detection\\data\\raw\\GBPUSD_H4_20200304_20250303.csv",
+      "records": 7779,
+      "start_date": "2020-03-04T16:00:00",
+      "end_date": "2025-03-03T12:00:00",
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "tick_volume",
+        "spread",
+        "real_volume"
+      ],
+      "last_modified": "2025-03-03T19:01:00.210745"
+    },
+    "USDJPY_D1_20200304_20250303.csv": {
+      "symbol": "USDJPY",
+      "timeframe": "D1",
+      "type": "raw",
+      "path": "C:\\Users\\peter\\Documents\\RegimeDetection\\backend\\forex_regime_detection\\data\\raw\\USDJPY_D1_20200304_20250303.csv",
+      "records": 1300,
+      "start_date": "2020-03-05T00:00:00",
+      "end_date": "2025-03-03T00:00:00",
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "tick_volume",
+        "spread",
+        "real_volume"
+      ],
+      "last_modified": "2025-03-03T19:01:00.219256"
+    },
+    "USDJPY_H1_20200304_20250303.csv": {
+      "symbol": "USDJPY",
+      "timeframe": "H1",
+      "type": "raw",
+      "path": "C:\\Users\\peter\\Documents\\RegimeDetection\\backend\\forex_regime_detection\\data\\raw\\USDJPY_H1_20200304_20250303.csv",
+      "records": 31077,
+      "start_date": "2020-03-04T16:00:00",
+      "end_date": "2025-03-03T15:00:00",
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "tick_volume",
+        "spread",
+        "real_volume"
+      ],
+      "last_modified": "2025-03-03T19:01:00.280419"
+    },
+    "USDJPY_H4_20200304_20250303.csv": {
+      "symbol": "USDJPY",
+      "timeframe": "H4",
+      "type": "raw",
+      "path": "C:\\Users\\peter\\Documents\\RegimeDetection\\backend\\forex_regime_detection\\data\\raw\\USDJPY_H4_20200304_20250303.csv",
+      "records": 7780,
+      "start_date": "2020-03-04T16:00:00",
+      "end_date": "2025-03-03T12:00:00",
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "tick_volume",
+        "spread",
+        "real_volume"
+      ],
+      "last_modified": "2025-03-03T19:01:00.301454"
+    }
+  },
+  "features": {}
+}
